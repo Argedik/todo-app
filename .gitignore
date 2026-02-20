@@ -1,0 +1,67 @@
+cat > .gitignore <<'EOF'
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Build outputs
+build/
+**/build/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Flutter/.last_build_id
+
+# macOS
+macos/Pods/
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Android
+android/.gradle/
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/app/.cxx/
+android/app/.externalNativeBuild/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Web
+web/.dart_tool/
+web/build/
+
+# Coverage
+coverage/
+
+# Environment files
+.env
+.env.*
+EOF

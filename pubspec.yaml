@@ -1,0 +1,64 @@
+name: todo_app
+description: "Notlarınızı, görevlerinizi ve toplantı hazırlıklarınızı yönetin."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Firebase
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.2
+  cloud_firestore: ^5.6.6
+  firebase_messaging: ^15.2.5
+
+  # Auth
+  google_sign_in: ^6.2.2
+
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+
+  # Calendar
+  table_calendar: ^3.2.0
+
+  # Google APIs
+  googleapis: ^14.0.0
+  googleapis_auth: ^2.0.0
+
+  # Utils
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  json_annotation: ^4.9.0
+  freezed_annotation: ^2.4.4
+  share_plus: ^10.1.4
+  url_launcher: ^6.3.1
+  flutter_animate: ^4.5.2
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.14
+  json_serializable: ^6.9.4
+  freezed: ^2.5.7
+  riverpod_generator: ^2.6.3
+  mockito: ^5.4.5
+  fake_cloud_firestore: ^3.1.0
+
+flutter:
+  uses-material-design: true
